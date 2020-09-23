@@ -1,19 +1,22 @@
-// Name:
-// Date:
+// Name:Ariahnnah Porras
+// Date:9/23/20
 // Assignment: Template Literal Practice
 
 ////////////////////////Pt. 1////////////////////////
 // create a var that accepts a first name as a prompt
-
+let firstName = window.prompt("please enter your first name");
+firstName;
 
 // create a var that accepts a last name as a prompt
-
+let lastName = window.prompt("please enter your last name");
+lastName;
 
 // Create a variable that will hold a score and a var that will hold a full name 
-
+let fullName= firstName + " " lastName;
+let score = 0;
 
 // create a var that adds the full name var and score in a message
-
+let highScore = fullName + " " + "has a score of " + score;
 
 ////////////////////////Pt. 2////////////////////////
 //comment out the lines above then create two var's that hold numbers
